@@ -1,27 +1,23 @@
+{% load static %}
 <html>
     <head>
+      <title>Django Site</title>
+      <link rel="stylesheet" href="{% static 'css/blog.css' %}">
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-      <title>Django Site</title>
-      
+
+
     </head>
     <body>
       <div>
         <h1><a href="">Django Site</a></h1>
       </div>
 
-      {{posts}}
-        <p>published: 30.06.2021, 22:55</p>
-        <h2><a href="">My first post</a></h2>
-        <p>뭐가 뭔지 하나도 모르겠다.</p>
-      {{posts}}
-
-      {{posts}}
-        <p>
-          published: 30.06.2021, 22:56
-          </p>
-          <h2><a href="">My second post</a></h2>
-          <p>타자가 너무 느리다.</p>
-      {{posts}}
+        <p>published: 01.07.2021, 14:40</p>
+        <h2><a href="">First Post</a></h2>
+        <p>모르겠다.</p>
+        <p>published: 01.07.2021, 14:41</p>
+        <h2><a href="">Second Post</a></h2>
+        <p>진짜로</p>
     </body>
 </html>
